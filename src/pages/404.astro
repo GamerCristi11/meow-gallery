@@ -1,0 +1,34 @@
+---
+import Layout from "../layouts/main.astro"
+---
+<Layout>
+    <style>
+        html {
+            overflow: hidden;
+        }
+        .spintxt {
+            display:block;
+            animation: spin 2.5s linear infinite;
+            text-align: center;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(-90deg);
+            }
+            50% {
+                transform: rotate(90deg);
+            }
+            100% {
+                transform: rotate(-90deg);
+            }
+           }
+        
+    </style>
+    <div slot="text">
+        <h1 style="text-align: center;">404 Page Not Found</h1>
+        <h2 class="spintxt">Bruhhhh</h2>
+        <br>
+        <h2 style="text-align: center;"><a href="/">Go Back Home</a></h2>
+    </div>
+</Layout>

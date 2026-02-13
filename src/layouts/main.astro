@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meow Gallery</title>
+        <link rel="stylesheet" type="text/css" href="/styles/style.css?v=1">
+        <meta name="robots" content="noai, noimageai">
+    </head>
+    <body>
+        <div class="nav">
+            <h2 onclick="window.location.href='/'" style="cursor: pointer;"><span class="meow">Meow</span>Gallery</h2>
+            <div class="buttons-nav">
+                <a href="/">Home</a>
+                <a href="/submit">Submit</a>
+                <a href="/info">Info</a>
+            </div>
+        </div>
+        <br>
+        <div class="text">
+            <slot name="text" />
+        </div>
+    </body>
+</html>

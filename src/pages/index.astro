@@ -1,17 +1,33 @@
 ---
-
+import Layout from "../layouts/main.astro"
 ---
+<Layout>
+<style>
+            .catt {
+                display: inline-block;
+                animation: spin 1.5s linear infinite;
+            }
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+            @keyframes spin {
+                from {
+                transform: rotate(0deg);
+                }
+                to {
+                transform: rotate(360deg);
+                }
+            }
+</style>
+	<div slot="text">
+		<h1>Welcome to the <span class="catt">Meow</span> Gallery!!</h1>
+		<h2>Check out these meowtastic cat drawings(Newest To Oldest) - Click on the image to see info!</h2>
+		<br>
+        <h2 style="text-align: center;">Gallery is empty (╥﹏╥)</h2>
+        <h2><a href="/submit" style="display: block; text-align: center;">Submit a drawing!</a></h2>
+		<!--<div class="gallery">
+            <a href="/cat/0" class="cat">
+                <img src="/media/cats/0.">
+            </a>
+		</div>-->
+        
+	</div>
+</Layout>
