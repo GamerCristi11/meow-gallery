@@ -8,3 +8,12 @@ A web gallery presenting cat drawings made by visitors. Anyone can submit a draw
 
 ## Links:
 -[Live Website](https://meowg.code2craft.xyz)
+
+## Features:
+-Anyone can submit a drawing
+-Each drawing has its own page
+-Every drawing is on the front page
+-Animated text
+
+## What did AI do in this project?
+AI helped to create the spinning meow text and to make the Meow text in the top left corner to be rotated.
