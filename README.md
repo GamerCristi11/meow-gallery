@@ -1,19 +1,23 @@
-# Meow Gallery
-A web gallery presenting cat drawings made by visitors. Anyone can submit a drawing, give it a name, give yourself an artist name and have the drawing on the website, with a page dedicated to that drawing.
+<h1 align="center">Meow Gallery</h1>
+<p align="center"><i>The source code for meowg.code2craft.xyz</i></p>
 
-## Built with:
--Astro(Framework)
--HTML/CSS(Coding)
--Fillout(Submitting Form)
+[Getting Started](#getting-started) | [License](#license) | [Note](#note)
 
-## Links:
--[Live Website](https://meowg.code2craft.xyz)
+## Getting Started
+To get started, run this into your computer's terminal:
 
-## Features:
--Anyone can submit a drawing
--Each drawing has its own page
--Every drawing is on the front page
--Animated text
+1. Clone the repository:
 
-## What did AI do in this project?
-AI helped to create the spinning meow text and to make the Meow text in the top left corner to be rotated.
+   ```bash
+   git clone https://github.com/crislazy/meow-gallery && cd meow-gallery
+   ```
+
+2. Open the index.html file
+
+> Note: If you fork or reuse this project, you may want to remove or update the `CNAME` file to use your own domain.
+
+## License
+This project’s source code is licensed under the MIT License.
+
+## Note
+An AI agent was used in the development of this website for debugging and fixing the JavaScript code.
