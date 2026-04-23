@@ -12,7 +12,19 @@ To get started, run this into your computer's terminal:
    git clone https://github.com/crislazy/meow-gallery && cd meow-gallery
    ```
 
-2. Open the index.html file
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the website on your computer:
+
+    ``` bash
+    npm run dev
+    ```
+
+4. Open [localhost:4321](http://localhost:4321) in your browser
 
 > Note: If you fork or reuse this project, you may want to remove or update the `CNAME` file to use your own domain.
 
